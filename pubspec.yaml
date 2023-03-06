@@ -36,6 +36,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get:
+  flutter_svg:
+  google_fonts:
+  fl_chart: ^0.36.2
+  flutter_toggle_tab:
+  chip_list:
+  bottom_bar_with_sheet: ^2.4.0
+  flutter_zoom_drawer: ^3.0.3
 
 dev_dependencies:
   flutter_test:
@@ -58,6 +65,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
